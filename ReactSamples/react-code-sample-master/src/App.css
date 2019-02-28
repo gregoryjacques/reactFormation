@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#demo-wrapper {
+  margin-top: 40px;
+}
+
+p.link:hover {
+  cursor: pointer;
+  color: #26a69a;
+}
+
+span.emoji-big {
+  font-size: 48px;
+}
+
+#link-menu {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  color: #26a69a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 20px;
+  background-color:yellow;
+}
+
+.btn-primary {
+  padding: 20px;
+
+  background-color: cyan;
+}
